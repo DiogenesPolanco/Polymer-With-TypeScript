@@ -18,7 +18,7 @@
 * [Recipes](/docs/README.md/) for ES6 support, Polymer performance, using Visual Studio Code, Deploying to GitHub Pages, Deploying to Firebase, and Mobile Chrome Apps
 
 ### Demo
-See latest Polymer with TypeScript Demo (from master).
+See latest Polymer with TypeScript demo [Here!](http://tspolymer.azurewebsites.net/).
 
 ### Tutorials
 
