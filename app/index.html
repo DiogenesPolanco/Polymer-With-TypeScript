@@ -88,6 +88,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <iron-icon icon="mail"></iron-icon>
             <span>Contact</span>
           </a>
+          <a data-route="videos" href="{{baseUrl}}videos">
+            <iron-icon icon="pageview"></iron-icon>
+            <span>Videos</span>
+          </a>
         </paper-menu>
       </paper-scroll-header-panel>
 
@@ -173,8 +177,17 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <section data-route="contact">
               <paper-material elevation="1">
                 <h2 class="page-title">Contact</h2>
-                <p>This is the contact section</p>
+                <p>This is the contact section</p> 
+               
+            </section>
+            
+            <section data-route="videos">
+              <paper-material elevation="1">
+                <h2 class="page-title">Videos</h2>
+                <p>This is the videos section</p>
+               <my-videos><my-videos>
               </paper-material>
+               
             </section>
           </iron-pages>
         </div>

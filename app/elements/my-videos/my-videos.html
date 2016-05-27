@@ -1,0 +1,24 @@
+
+<dom-module id="my-videos">
+   <template> 
+     <iron-ajax auto
+          url="https://www.googleapis.com/youtube/v3/search"
+          params='{"part":"snippet", "q":"polymer", "key": "AIzaSyAuecFZ9xJXbGDkQYWBmYrtzOGJD-iDIgI", "type": "video"}'
+          handle-as="json"
+          last-response="{{ajaxResponse}}">
+    </iron-ajax>
+          
+          <div class="horizontal-section-container">
+              <template is="dom-repeat" items="{{ajaxResponse.items}}">  
+                    {{item.snippet.title}}
+                      <div class="horizontal-section">
+                        <h2><a href="{{url(item.id.videoId)}}" target="_blank">{{item.snippet.title}}</a></h2>
+                        <iron-image src="{{item.snippet.thumbnails.high.url}}" width="256" height="256" sizing="cover" preload fade></iron-image>
+                        <p>{{item.snippet.description}}</p>
+                      </div> 
+              </template>
+          </div>
+    </template>
+</dom-module>
+
+<script type="text/javascript" src="my-videos.js"></script>
