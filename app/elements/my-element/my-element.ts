@@ -4,11 +4,8 @@
 class MyElement extends polymer.Base
 {
    @property({ type: String })
-   greet: string = "Hello";
-   
-   @property({ type: String })
-   test: string = "Hello";
-
+   greet: string;
+  
    @observe("greet")
    greetChanged(newValue:string, oldValue:string)
    {
@@ -39,6 +36,7 @@ class MyElement extends polymer.Base
    // lifecycle methods
    ready()
    {
+     this.greet = "Hello";
      console.log( this['is'], "ready!")
    }
    
