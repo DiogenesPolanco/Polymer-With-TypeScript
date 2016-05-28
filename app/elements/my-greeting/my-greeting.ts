@@ -11,5 +11,5 @@ class MyGreeting extends polymer.Base
         this.greeting= "Welcome!";
     }
 }
-
-Polymer(MyGreeting) 
+ 
+MyGreeting.register();

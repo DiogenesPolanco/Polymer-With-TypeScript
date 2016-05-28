@@ -1,11 +1,8 @@
 {
 	"compilerOptions": {
-		"declaration": false, 
 		"module": "commonjs",
-		"target": "es6",
-		"noImplicitAny": false,
-		"experimentalDecorators": true,
-		"sourceMap": false
+		"target": "es6",  
+        "experimentalDecorators": true
 	},
 	"exclude": [ 
 		"app/bower_components",

@@ -8,5 +8,5 @@ class MyVideos extends polymer.Base
    {
         return 'https://www.youtube.com/watch?v=' + videoId;
    } 
-}
-Polymer(MyVideos)
+} 
+MyVideos.register(); 

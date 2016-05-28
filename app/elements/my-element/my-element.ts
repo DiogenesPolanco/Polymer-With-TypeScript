@@ -47,5 +47,4 @@ class MyElement extends polymer.Base
 
 
 }
-
-Polymer(MyElement) 
+MyElement.register(); 

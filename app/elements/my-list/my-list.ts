@@ -18,5 +18,4 @@ class MyList extends polymer.Base
           ];
     }
 }
-
-Polymer(MyList) 
+MyList.register(); 
