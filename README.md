@@ -3,7 +3,7 @@
 
 ## Polymer With TypeScript
 
-> A starting point for building web applications with Polymer and TypeScript
+> A starting point for building web applications with Polymer and TypeScript.
 
 ### Included out of the box:
 
@@ -80,7 +80,7 @@ This lets you run `gulp` and `bower` from the command line.
 4)  Install the starter kit's local `npm` and `bower` dependencies.
 
 ```sh
-cd  Polymer-and-TypeScript && npm install && bower install
+cd  Polymer-With-TypeScript && npm install && bower install
 ```
 
 This installs the element sets (Paper, Iron, Platinum) and tools the starter kit requires to build and serve apps.
